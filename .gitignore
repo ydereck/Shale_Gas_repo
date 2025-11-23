@@ -1,3 +1,28 @@
+# Ignore data files
+*.csv
+*.dta
+*.xlsx
+*.parquet
+
+# Ignore large inputs
+/data/
+/raw/
+/processed/
+*Data*/ 
+*data*/
+
+# Ignore Stata temporary/log files
+*.log
+*.smcl
+*.tmp
+
+# Ignore VSCode settings
+.vscode/
+
+# Ignore OS junk
+.DS_Store
+Thumbs.db
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
