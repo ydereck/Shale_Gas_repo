@@ -27,7 +27,7 @@ The analysis follows these main steps:
 
 ### **4. Construct county-year dataset & run regressions**
 - Python: `code/03a_reg_shale_860.py`  
-- Stata: `code/03a_reg_shale_860.do`
+- **Stata: `code/03a_reg_shale_860.do`** *(main regression)*
 
 ## **Regression Results**
 
