@@ -1,0 +1,13 @@
+	(1)	(2)	(3)
+VARIABLES	Coal capacity	Gas capacity	Renewable capacity
+			
+shale_post	-0.104	-0.358	0.317***
+	(0.277)	(0.380)	(0.084)
+Constant	39.143***	71.377***	10.860***
+	(0.467)	(0.639)	(0.142)
+			
+Observations	133,724	133724	133,724
+Observations	133724	133,724	133724
+R-squared	0.540	0.406	0.503
+Robust standard errors in parentheses			
+*** p<0.01, ** p<0.05, * p<0.1			

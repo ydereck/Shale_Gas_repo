@@ -126,7 +126,7 @@ save "data_intermediate/EIA_860_county_year_with_shale_from_stata.dta", replace
 reghdfe cap_coal shale_post shale_index post, ///
     absorb(year fips_5) vce(cluster fips_5)
 
-outreg2 using "output/reg_capacity_shale.xls", ///
+outreg2 using "output/reg_capacity_shale.xlsx", ///
     replace excel dec(3) ///
     ctitle(Coal capacity) ///
     keep(shale_post shale_index post) ///
@@ -136,7 +136,7 @@ outreg2 using "output/reg_capacity_shale.xls", ///
 reghdfe cap_ng shale_post shale_index post, ///
     absorb(year fips_5) vce(cluster fips_5)
 
-outreg2 using "output/reg_capacity_shale.xls", ///
+outreg2 using "output/reg_capacity_shale.xlsx", ///
     excel dec(3) ///
     ctitle(Gas capacity) ///
     keep(shale_post shale_index post) ///
@@ -147,10 +147,11 @@ outreg2 using "output/reg_capacity_shale.xls", ///
 reghdfe cap_re shale_post shale_index post, ///
     absorb(year fips_5) vce(cluster fips_5)
 
-outreg2 using "output/reg_capacity_shale.xls", ///
+outreg2 using "output/reg_capacity_shale.xlsx", ///
     excel dec(3) ///
     ctitle(Renewable capacity) ///
     keep(shale_post shale_index post) ///
     addstat("Observations", e(N)) ///
     append
 
+*******************************************************
