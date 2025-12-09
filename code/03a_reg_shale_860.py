@@ -13,6 +13,11 @@ EIA_860_with_fips_shale.csv.
   with SEs clustered by county.
 
 Prints a compact summary table of the coefficient on shale_post only.
+
+capacity source codes: 
+#1: coal; 2: oil; 3: ng; 4: wind; 5: solar; 
+6: hydro; 7: biomass; 8: nuclear; 9: other fossil; 
+10: other non-fossil; 11: other gas; 12: other
 """
 
 from pathlib import Path
